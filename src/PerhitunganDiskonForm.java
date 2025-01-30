@@ -276,7 +276,7 @@ public class PerhitunganDiskonForm extends javax.swing.JFrame {
         txtHargaAkhir.setText(String.valueOf(hargaAkhir));
         txtPenghematan.setText(String.valueOf(jumlahDiskon));
 
-        String riwayat = "Harga Asli: " + hargaAsli + ", Diskon: " + persentaseDiskon + "%, Harga Akhir: " + hargaAkhir;
+        String riwayat = " Harga Akhir setelah diskon: " + hargaAkhir;
             txtAreaRiwayat.append(riwayat + "\n");
 
 
